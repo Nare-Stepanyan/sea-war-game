@@ -143,3 +143,47 @@ body {
   align-items: center;
   margin: 50px;
 }
+.boards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sea-war-board {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.ship {
+  background-color: #336699;
+}
+
+.hit {
+  background-color: #ff3333;
+}
+
+.miss {
+  background-color: #99cc99;
+}

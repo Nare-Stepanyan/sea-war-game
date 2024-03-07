@@ -3,6 +3,7 @@ import { socketProvider } from "../../providers/socket-provider";
 import { useAppDispatch, useAppSelector } from "../app/hook";
 import { selectUser, setUser } from "../../store/user/userSlice";
 import { useNavigate } from "react-router";
+import Game from "../game";
 
 const Home: FC = () => {
   const dispatch = useAppDispatch();
@@ -25,6 +26,7 @@ const Home: FC = () => {
           Log out
         </button>
       </div>
+      <Game />
     </>
   );
 };

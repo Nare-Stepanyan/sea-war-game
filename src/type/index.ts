@@ -13,5 +13,5 @@ export type AskMessageModel = {
 
 export type AnswerMessageModel = {
   userId: string;
-  answer: typeof AnswerType;
+  answerType: string;
 };
